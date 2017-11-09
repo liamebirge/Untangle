@@ -1,0 +1,32 @@
+http://www.strikegently.co/
+
+Services Used:
+Google Analytics: Shows site owner information about who visits their site, how long they stay, etc.
+Nginx: Helps with heavy traffic to servers. Fast and multi functional
+OpenResty: uses Nginx modules to make a web application server for the Lua programming language for high performance web apps
+Modernizr: Adapts the webpage to the viewer's HTML, CSS, and JS features on their browser
+JQuery: Makes website development much easier and streamlined
+Stripe: Online money handling software for businesses
+Varnish: Web app cache accelerator
+
+SEO Success:
+Content:
+Not much content on pages, just picture and short descriptions, Minimalistic design.
+
+Architecture:
+website is crawlable and dynamic, loads very quickly. Https is not used. Maningful url keywords are used
+
+HTML:
+Titles aren't used, meta tags provide accurate keywords. Site is structured around the products, and no text stuffing is used
+
+Trust:
+Site is interesting to look at. is a relatively old site. No ads used
+
+Links:
+Ads posted on relevant social media platforms bring in interested customers. Not using spam or paid links
+
+Personal:
+Located in areas near customers (short delivery times)
+
+Social:
+Content is unique and interesting. High publicity on Instagram

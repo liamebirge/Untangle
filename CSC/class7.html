@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			var a, clicks, myVehicle;
+
+			(function setup(){
+				clicks = 0;
+			})()
+
+			function clicker(){
+				a = "Wow that really hurt ";
+				clicks++;
+				if (clicks === 2){
+					this.a = "Wow that really hurt quite bad";
+				} else if (clicks === 3){
+					this.a = "stop please"
+				}
+				alert(this.a + "\nNumber times pressed: " + clicks);
+			}
+		</script>
+		<style type="text/css">
+			.container{
+				width: 100%;
+				height:100%;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+			}
+			.container button{
+				color: red;
+				border: 1px solid black;
+				background:none;
+				border-radius: 3px;
+				padding:30px;
+				padding-left: 40px;
+				padding-right: 40px;
+			}
+			button:hover{
+				border: 2px dotted black;
+				background: rgba(200, 200, 200, 0.5);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<button onclick="clicker()">Click Me</button>
+		</div>
+	</body>
+</html>
